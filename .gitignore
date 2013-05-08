@@ -1,1 +1,37 @@
-target/
+# common backup files
+*~
+*.swp
+*.old
+*.bak
+
+# directory files
+*.directory
+
+# eclipse
+.settings
+.buildpath
+.classpath
+.project
+.scala_dependencies
+.pmd
+
+# idea
+.idea
+*.ipr
+*.iws
+*.iml
+
+# log files and folders
+logs
+*.log
+
+# netbeans
+nbproject
+project.xml
+
+# maven
+release.properties
+pom.xml.releaseBackup
+
+/target
+
